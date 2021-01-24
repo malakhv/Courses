@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- The name of this app -->
+    <string name="app_name">A2_L05_02</string>
+
+    <!-- The default widget text -->
+    <string name="widget_text_stub">My Widget</string>
+
+    <!-- The title of configuration Activity -->
+    <string name="widget_config_title">Widget Config</string>
+
+</resources>

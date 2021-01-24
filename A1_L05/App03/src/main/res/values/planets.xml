@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    Copyright (C) 2013 xDevStudio
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<resources>
+
+    <!-- Planets in the Solar system. -->
+    <string-array name="planets" translatable="false">
+        <item>@string/planet_01_mercury</item>
+        <item>@string/planet_02_venus</item>
+        <item>@string/planet_03_earth</item>
+        <item>@string/planet_04_mars</item>
+        <item>@string/planet_05_jupiter</item>
+        <item>@string/planet_06_saturn</item>
+        <item>@string/planet_07_uranus</item>
+        <item>@string/planet_08_neptune</item>
+        <item>@string/planet_09_pluto</item>
+    </string-array>
+
+    <!-- Symbols of planets in the Solar system. -->
+    <string-array name="planets_symbol" translatable="false">
+        <item>\u263F</item>
+        <item>\u2640</item>
+        <item>\u2295</item>
+        <item>\u2642</item>
+        <item>\u2643</item>
+        <item>\u2644</item>
+        <item>\u2645</item>
+        <item>\u2646</item>
+        <item>\u2647</item>
+    </string-array>
+
+    <!-- Radius of planets in the Solar system. -->
+    <string-array name="planets_radius" translatable="false">
+        <item>2440</item>
+        <item>6052</item>
+        <item>6378</item>
+        <item>3397</item>
+        <item>71490</item>
+        <item>60270</item>
+        <item>25560</item>
+        <item>24760</item>
+        <item>1151</item>
+    </string-array>
+
+    <!-- Icons of planets  -->
+    <array name="planets_icon">
+        <item>@drawable/planet_01</item>
+        <item>@drawable/planet_02</item>
+        <item>@drawable/planet_03</item>
+        <item>@drawable/planet_04</item>
+        <item>@drawable/planet_05</item>
+        <item>@drawable/planet_06</item>
+        <item>@drawable/planet_07</item>
+        <item>@drawable/planet_08</item>
+        <item>@drawable/planet_09</item>
+    </array>
+
+</resources>

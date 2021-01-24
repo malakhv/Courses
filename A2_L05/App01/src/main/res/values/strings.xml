@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A2_L05_01</string>
+
+    <string name="msg_charging">Charging in progress</string>
+    <string name="msg_power_connected">Power connected</string>
+    <string name="msg_power_disconnected">Power disconnected</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The initial data for table TableDep -->
+    <string-array name="dep_items">
+        <item>Unknown-Unknown</item>
+        <item>Business-Moscow</item>
+        <item>Development-Volgograg</item>
+        <item>Testing-Saratov</item>
+    </string-array>
+
+</resources>

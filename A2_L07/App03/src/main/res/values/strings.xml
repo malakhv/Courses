@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A2_L07_03</string>
+
+    <string-array name="items">
+        <item>List Item 01</item>
+        <item>List Item 02</item>
+        <item>List Item 03</item>
+        <item>List Item 04</item>
+        <item>List Item 05</item>
+        <item>List Item 06</item>
+        <item>List Item 07</item>
+    </string-array>
+
+</resources>

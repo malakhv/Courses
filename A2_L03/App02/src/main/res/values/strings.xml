@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">A2_L03_02</string>
+
+    <!-- Google Maps menu -->
+    <string name="menu_map_mode">Map Mode</string>
+    <string name="menu_map_mode_normal">Normal</string>
+    <string name="menu_map_mode_satellite">Satellite</string>
+    <string name="menu_map_mode_terrain">Terrain</string>
+    <string name="menu_map_traffic">Traffic</string>
+    <string name="menu_map_location">My Location</string>
+    <string name="menu_map_point_new">Add Point</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="40dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="40dp"
+    android:updatePeriodMillis="86400000"
+    android:previewImage="@drawable/widget_preview"
+    android:initialLayout="@layout/appwidget"    
+    android:resizeMode="horizontal|vertical"
+    android:configure="xds.courses.android_2.lesson_05.app02.WidgetConfig">
+</appwidget-provider>

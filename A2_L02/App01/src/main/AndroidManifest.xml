@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xds.courses.android_2.lesson_02.app01">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Main Activity in this app. -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Help Activity -->
+        <activity android:name=".HelpActivity"
+            android:exported="false" />
+
+        <!-- Activity for ACTION_SEND -->
+        <activity android:name=".TextActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/html"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Activity for ACTION_VIEW -->
+        <activity android:name=".WebActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Only for URL with specified domain -->
+                <data android:scheme="http" android:host="www.android.com" />
+
+                <!-- For all web-sites --> <!--
+                <data android:scheme="http"/>
+                <data android:scheme="https"/> -->
+
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

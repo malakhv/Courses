@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A1_L05_03</string>
+    <string name="planet_01_mercury">Меркурий</string>
+    <string name="planet_02_venus">Венера</string>
+    <string name="planet_03_earth">Земля</string>
+    <string name="planet_04_mars">Марс</string>
+    <string name="planet_05_jupiter">Юпитер</string>
+    <string name="planet_06_saturn">Сатурн</string>
+    <string name="planet_07_uranus">Уран</string>
+    <string name="planet_08_neptune">Нептун</string>
+    <string name="planet_09_pluto">Плутон</string>
+</resources>

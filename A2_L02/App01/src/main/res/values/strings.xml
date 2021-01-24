@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">A2_L02_01</string>
+
+    <!-- Menu actions -->
+    <string name="act_help">Help</string>
+    <string name="act_share">Share</string>
+    <string name="act_web">Open Web-Page</string>
+    <string name="act_image">Pick image</string>
+
+    <!-- Chooser -->
+    <string name="chooser_title">Share text with</string>
+
+    <string name="help_header">Справка</string>
+    <string name="help_text">Если ваше приложение содержит большое количество окон (Activity),
+        различных элементов управления, обрабатывает данные пользователя и тд. Рекомендуется
+        добавлять в приложение раздел справки с подробным описанием функциональных возможностей
+        приложения.</string>
+
+</resources>

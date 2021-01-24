@@ -1,0 +1,5 @@
+Apache xDevLib
+Copyright 2013-2014 The Apache Software Foundation
+
+This product includes software developed at
+xDevStudio (http://www.xdevstudio.ru/).

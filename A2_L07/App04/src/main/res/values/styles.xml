@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+
+        <!-- Main colors -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+
+        <!-- Ripple style -->
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+
+        <!-- Enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">@transition/image_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/image_transition</item>
+
+    </style>
+
+</resources>

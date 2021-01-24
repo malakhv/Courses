@@ -1,0 +1,13 @@
+A1_L05_01
+android.courses.xds
+xds.courses.android.0105.app01
+
+
+xds.courses.android_1.lesson_05.app01
+/home/malakhv/WorkSpace/courses/A1_L05/App01
+
+
+
+
+xds.courses.android.0105.app01
+xds.courses.a0105.app01

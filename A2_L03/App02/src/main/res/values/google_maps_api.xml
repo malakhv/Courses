@@ -1,0 +1,10 @@
+<resources>
+
+    <!--
+        Google Maps API key. Follow the directions here:
+        https://developers.google.com/maps/documentation/android/start#get-key
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve"
+        translatable="false">AIzaSyCSQuAYFu9A7NR6Bz-Jr7y4Z6s3vh4KOF8</string>
+
+</resources>
